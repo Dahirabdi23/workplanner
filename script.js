@@ -1,2 +1,3 @@
-var gradDate = moment().format("dddd, MMM Do");
-$("#currentDay").text(gradDate);
+var date = moment().format("dddd, MMM Do");
+$("#currentDay").text(date);
+    
